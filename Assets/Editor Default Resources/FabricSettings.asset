@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ad9ddc0e5b942a98ec392b434d39bd, type: 3}
+  m_Name: FabricSettings
+  m_EditorClassIdentifier: 
+  email: rwlarouche@yahoo.com
+  rawToken: '{"access_token":"1741f5f05f5e0c9898bae35a2b076da0ee5e09cc420784e214a68dd535ba10db","refresh_token":"7db5b30354dfd54bfbdd4c35587dcb60c128d55c22b07085f2bca4985570b702","token_type":"bearer","expires_in":86400}'
+  organization:
+    Name: Thing Two
+    Id: 5887aa46948fa26aa000005d
+    ApiKey: 2317bd1929238ba8f0ab1e53da60a1fe0b6fd601
+    BuildSecret: f6017bd0355a7ccf49a604e633eb0483c95ce06756053cba5f9af8ad391784fa
+  iconUrl: https://s3.amazonaws.com/assets.crashlytics.com/production/project/6274223/project_icon/2802526/icon.png
+  dashboardUrl: https://www.fabric.io/thing-two/ios/apps/com.thingtwo.whackymole
+  initialization: 0
+  flowSequence: 0
+  conflict: 
+  kit: 
+  installedKits:
+  - Name: Crashlytics
+    InstallationStatus: 2
+    Installed: 1
+    Enabled: 1
+    Meta:
+    - Key: ConfiguredTimestamp
+      Value: 1487650028
+      Platform: 
+    - Key: Dependencies
+      Value: '[{"name":"Crashlytics-Android","version":"2.6.3"},{"name":"Crashlytics-Core-Android","version":"2.3.12"},{"name":"Fabric-Android","version":"1.3.14"},{"name":"Answers-Android","version":"1.3.10"},{"name":"Beta-Android","version":"1.1.4"},{"name":"Crashlytics-iOS","version":"3.8.3"},{"name":"Crashlytics-Wrapper-iOS","version":"0.0.0"},{"name":"Crashlytics-Wrapper-Android","version":"0.0.0"}]'
+      Platform: 
